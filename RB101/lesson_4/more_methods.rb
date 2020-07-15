@@ -88,9 +88,9 @@
 
 # p a
 
-a = 
-{ a: "ant", b: "bear", c: "cat" }.partition do |key, value|
-  value.size > 3
-end
+# a = 
+# { a: "ant", b: "bear", c: "cat" }.partition do |key, value|
+#   value.size > 3
+# end
 
-p a[0].to_h
+# p a[0].to_h
