@@ -45,6 +45,8 @@
 
 # llooloollo
 
-b = "' aAb09Zk"
+# b = "' aAb09Zk"
 
-p b.delete('^a-z0-9')
+# p b.delete('^a-z0-9')
+
+p (0..9).to_a
