@@ -49,4 +49,44 @@
 
 # p b.delete('^a-z0-9')
 
-p (0..9).to_a
+# p (0..9).to_a
+
+# p [1, 2, 3].join
+
+# p 0 / 1
+
+# 5487
+# 7 = 7
+# 87 = 8
+# 487 = 4
+# 5487 = 5
+
+# 5487 = 5 10
+# 487 = 4
+# 87 = 8
+# 7 = 7
+
+# p -19 % 5
+
+# hash = {}
+# p hash[2]
+
+
+# a = ["Lilette", 'lilette', 'Lilette', "Cameron", "Stacey", "Ashok"]
+# p a.sort
+
+# a = 'a'
+# p a[-1]
+
+# a = 5
+# p a != nil
+
+DEGREE = "\xC2\xB0"
+# p DEGREE
+
+
+# a = 1
+# p format("%.2d", a)
+
+
+
