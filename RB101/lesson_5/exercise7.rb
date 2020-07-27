@@ -1,0 +1,11 @@
+a = 'aaabbb'
+b = [5, 8]
+arr = [a, b]
+
+
+
+
+arr[0] += 2
+arr[1][0] -= a
+
+p arr

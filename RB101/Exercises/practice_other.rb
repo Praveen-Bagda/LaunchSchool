@@ -81,12 +81,23 @@
 # a = 5
 # p a != nil
 
-DEGREE = "\xC2\xB0"
-# p DEGREE
+# DEGREE = "\xC2\xB0"
+# # p DEGREE
 
 
 # a = 1
 # p format("%.2d", a)
+
+# x = {"a" => 1, "b" => 2}
+
+# # p x.size
+
+# word = 'Hi'
+
+# str = "Hello World"
+# str.split.each do |obj|
+#   puts word
+# end
 
 
 
