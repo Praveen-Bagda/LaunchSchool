@@ -12,7 +12,7 @@ character_classes = {
   mage:     {charisma:  20}
 } 
 
-puts 'Please type your class (warrior, thief, scout,mage):'
+puts 'Please type your class (warrior, thief, scout, mage):'
 input = gets.chomp.downcase.to_sym
 
 player = player.merge(character_classes[input])
