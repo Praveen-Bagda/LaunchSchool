@@ -1,0 +1,20 @@
+class Person
+  attr_reader :first_name
+  attr_writer :first_name, :last_name
+  
+  def first_equals_last?
+    self.first_name == self.last_name
+  end
+
+  private
+  
+  attr_reader :last_name
+end
+
+person1 = Person.new
+person1.first_name = 'Dave'
+person1.last_name = 'Smith'
+puts person1.first_equals_last?
+
+p person1.first_name
+p person1.last_name
