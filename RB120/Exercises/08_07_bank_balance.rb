@@ -19,8 +19,7 @@ class BankAccount
   end
 
   def withdraw(amount)
-    binding.pry
-    if amount > 0
+    if (amount <= balance) && (amount > 0)
       success = (self.balance -= amount)
     else
       success = false
@@ -55,6 +54,6 @@ account = BankAccount.new('5538898', 'Genevieve')
 p account.balance         # => 0
 p account.deposit(50)     # => $50 deposited. Total balance is $50.
 p account.balance         # => 50
-p account.withdraw(80)    # => Invalid. Enter positive amount less than or equal to current balance ($50).
+p account.withdraw(10)    # => Invalid. Enter positive amount less than or equal to current balance ($50).
                           # Actual output: $80 withdrawn. Total balance is $50.
 p account.balance         # => 50
